@@ -21,7 +21,7 @@ var infoDetails1 = $('.info__details1');
 var info1 = $('.info1');
 
 
-var sales1ClickHandler = function() {
+var info1ClickHandler = function() {
     var isActive = infoDetails1.attr('data-state');
     
     if (isActive == 'active') {
@@ -33,4 +33,4 @@ var sales1ClickHandler = function() {
 };
 
 
-info1.on('click', salesClickHandler);
+info1.on('click', info1ClickHandler);
